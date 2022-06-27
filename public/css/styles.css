@@ -1,0 +1,157 @@
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+
+
+.uneditable-input:focus {   
+  border-color: grey;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px grey;
+  outline: 0 none;
+}
+img {
+    border: 0.5px black solid;
+}
+a {
+    text-decoration: none !important;
+  }
+
+body {
+    color: grey;
+}
+h1 {
+    text-align: center;
+   margin-top: 2%;
+   font-size: 50px;
+}
+
+.btn {
+    color:darkgrey;
+}
+
+.btnL {
+    color:grey;
+    background-color: darkgrey;
+    margin-top: 5px;
+}
+
+.btnL:hover {
+    color: white;
+}
+.btn:hover {
+    color: white;
+}
+
+input[type='checkbox'] {
+    accent-color: darkgrey;
+}
+/* .nav-link {
+    background-color: grey;
+} */
+
+a {
+    color: grey;
+}
+
+i{
+    color: grey
+}
+i:hover {
+ color: black;
+}
+
+
+.listNations {
+ padding-left: 35.5%;
+  
+}
+
+li {
+    margin: 2px 4px;
+}
+.secondary {
+    color: white;
+    padding-left: 3px;
+}
+
+span {
+    opacity : 80%
+}
+
+.mainDiv {
+    margin-top: 5%;
+}
+
+.formDiv {
+    text-align: center;
+    padding-top: 3%;
+}
+.flagDiv {
+    min-height: 200px;
+    max-width: 400px;
+    /* outline: 1px black solid; */
+    margin: 0 auto;
+}
+
+.form-select {
+max-width: 30%;
+margin: 0 auto;
+
+}
+
+.innerFlag {
+    margin: 0 auto;
+    height: 200px;
+    width: 90%;
+    overflow: hidden;
+}
+
+
+.mainForm {
+display: flex;
+flex-direction: column;
+justify-content: center;
+    min-height: 500px;
+    max-width: 500px;
+    padding: 2% 2%;
+    margin: 0 auto;
+    margin-top: 2%;
+    border-radius:10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: grey;
+
+}
+
+ /* this is the login section */
+
+/* .form-group {
+    margin: 0 auto;
+  text-align: center;
+    max-width: 600px;
+} */
+
+.loginDiv {
+    display: flex;
+flex-direction: column;
+
+    min-height: 500px;
+    max-width: 500px;
+    padding: 2% 2%;
+    margin: 0 auto;
+    margin-top: 2%;
+    border-radius:10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: grey;
+
+}
